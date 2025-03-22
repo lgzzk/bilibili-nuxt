@@ -1,13 +1,13 @@
 <template>
-  <h1 class="text1">
-    Hello world!
-  </h1>
+  <div class="app">
+    <nuxt-page/>
+  </div>
 </template>
 
 <style scoped>
 
-.text1{
-    @apply p-10 m-10 text-3xl font-bold underline text-amber-900;
+.app {
+  @apply max-w-[2560px] mx-auto bg-white min-h-screen
 }
 
 </style>

@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+    --text: #9499a0;
+}
+
+body {
+    min-width: 1160px;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+    background-color: #f1f2f3;
+    -webkit-font-smoothing: antialiased;
+    font-family: PingFang SC, HarmonyOS_Regular, Helvetica Neue, Microsoft YaHei, sans-serif !important;
+}
+
+@media (min-width: 1560px) {
+    :root {
+        --layout-padding: 140px;
+        --layout-right: 90px;
+        --swiper-font-size: 20px;
+        --header-height: 120px;
+        --litpic-left: 96px;
+    }
+}
+
+@media (max-width: 1560px) {
+    :root {
+        --layout-padding: 60px;
+        --layout-right: 9px;
+        --swiper-font-size: 18px;
+        --header-height: 110px;
+        --litpic-left: 64px;
+    }
+}
